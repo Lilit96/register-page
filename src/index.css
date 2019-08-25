@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.fileContainer {
+  background: transparent!important;
+  width: 200px;
+  height: 151px;
+  border: 1px solid #e2dddd;
+  border-radius: 50%!important;
+}
+.fileContainer p {
+  display: none;
+}
+.profile img {
+  width: 200px;
+  height: 330px;
+}
+.profile p {
+  font-size: 50px
+}
+.fileContainer .chooseFileButton  {
+  font-size: 200px !important;
+  background: transparent !important;
+  color: #e2dddd !important;
+  margin: 0 0px 46px 0 !important;
+}
